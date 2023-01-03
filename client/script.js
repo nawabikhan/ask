@@ -69,7 +69,6 @@ const handleSubmit = async (e) => {
   const messageDiv = document.getElementById(uniqueId);
 
   loader(messageDiv);
-
   const response = await fetch('https://ntechs.onrender.com/', {
     method: 'POST',
     headers: {
